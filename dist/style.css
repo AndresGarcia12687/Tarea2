@@ -1,0 +1,28 @@
+/* Encabezado con fondo degradado de azul a verde */
+header {
+    background: linear-gradient(to right, #0000ff, #00ff00);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Sección principal con fuente Arial y tamaño de 16px */
+main {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Lista de productos con bordes redondeados y sombra */
+.products {
+    list-style-type: none;
+    padding: 0;
+}
+
+.products li {
+    background: #f2f2f2;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
